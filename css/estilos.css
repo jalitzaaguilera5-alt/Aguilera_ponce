@@ -1,0 +1,98 @@
+.contactos{
+	border: 8px dotted #800080 ;
+	float: left;
+	width: 400px;
+	margin: 30px;
+	background: #DDA0DD;
+	text-align: center;
+	align-items: center
+}
+
+.SERVICIOS{
+	background-color: #dda0dd ;
+	border: 8px dotted purple;
+	width: 350px;
+	min-height: 400px;
+	padding: 20px;
+	display: inline-block;
+    vertical-align: top;
+    align-items: center
+}
+.JALITZA{
+	background-color: #dda0dd ;
+	border: 8px dotted purple;
+	width: 350px;
+	min-height: 400px;
+	padding: 20px;
+	display: inline-block;
+    vertical-align: top;
+    align-items: center
+}
+header{
+	background-color:#D87093 ;
+	border-bottom: 5px solid #000000;
+	padding: 10px 20px ;
+}
+.header-container{
+	display: flex;/*ubica los elementos uno al lado del otro*/
+	justify-content: space-between;
+	align-items: center;
+	max-width: 1100px;
+	margin: 0 auto;
+}
+.logo{
+	font-size: 10px;
+	font-weight: bold:/negritas*/;
+	color:#000000;
+
+}
+nav ul{
+	list-style: none;
+	display: flex;
+	gap: 12px;
+	margin: 0;
+	padding: 0;
+}
+nav ul li a{
+	text-decoration: none;
+	color:#000000;
+	font-weight: 600;
+	padding: 8px 12px;
+	border-radius: 4px;
+	transition: background-color 1s, color 1s;
+
+}
+nav ul li a:hover{
+	background-color:#9370D8;
+	color: ;
+}
+footer {
+background-color: #D87093; /*rose*/
+color: #F0FFF0;
+padding: 20px;
+font-size: 14px;
+clear: both;
+}
+
+.footer-container {
+max-width: 1000px;
+margin: 0 auto;
+display: flex;
+justify-content: space-between; /* Texto a la izquierda, contacto a la derecha */
+align-items: center;
+flex-wrap: wrap;
+gap: 15px;
+}
+
+.footer-container p {
+margin: 0;
+}
+
+.footer-container a {
+color: #38bdf8; /* Celeste para resaltar los enlaces directos */
+text-decoration: none;
+}
+
+.footer-container a:hover {
+text-decoration: underline;
+}
